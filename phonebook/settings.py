@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware'
 ]
 ALLOWED_HOSTS = [
-    'phonebookapis.herokuapp.com/',
+    'phonebookapis.herokuapp.com',
     '127.0.0.1'
 ]
 ROOT_URLCONF = 'phonebook.urls'
