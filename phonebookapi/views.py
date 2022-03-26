@@ -66,9 +66,6 @@ class registerView(APIView):
             user = request._request.POST.get('UserName')
             pwd = request._request.POST.get('Password')
             phnb = request._request.POST.get('PhoneNumber')
-            print(user)
-            print(pwd)
-            print(phnb)
             try:
                 int(phnb)
                 obj = models.phonebook.objects.filter(UserName=user).first()
